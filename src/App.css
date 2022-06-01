@@ -1,0 +1,80 @@
+.App {
+  /* text-align: center; */
+  width: 40%;
+  margin: auto;
+  /* border: 2px solid red; */
+  padding: 1%;
+  background: url("https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/44674_500x650.jpg") ;
+  background-color: green;
+  margin-top: 2%;
+}
+.App h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.flexIt{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0.999);
+  padding: 8px 30px;
+}
+
+.flexIt h2{
+  font-size: 22px;
+  color: rgb(252, 250, 247);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgDiv{
+
+  margin-right: 20%;
+}
+
+.imgDiv img{
+ width: 50px;
+ height: 50px;
+}
+
+.loginbbtn{
+  padding: 8px 20px;
+  border-radius: 12px;
+  font-size: 22px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.loginbbtn:hover{
+  background-color: rgb(249, 57, 57);
+  border: 1px solid white;
+}
+
+
+.Light{
+  background-color: white;
+  color: black;
+}
+
+.Dark{
+  background-color: black;
+  color: white;
+}
+
+.main{
+  height: 770px;
+}
+
+.themebtn{
+ margin-left: 30%;
+}
+
+.themeicon{
+  width: 40px;
+  height: 40px;
+}
+
+.themeicon img{
+  width: 100%;
+  height: 100%;
+}

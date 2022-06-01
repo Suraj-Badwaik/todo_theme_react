@@ -1,0 +1,102 @@
+
+h1{
+    text-align: center;
+}
+.todo{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 30px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 12px;
+    height: 55px;
+    margin: 5px auto;
+    /* margin: auto; */
+}
+.todo>div:nth-child(1){
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.todo>div:nth-child(2){
+    
+    display: flex;
+    align-items: center;
+}
+
+.todo img{
+    width: 30px;
+    height: 30px;
+}
+
+.firstDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    padding: 0;
+    background-color: #6baa7e;
+    margin-bottom: 4%;
+
+}
+.inputBox{
+    width: 80%;
+    padding: 10px 8px;
+    border-radius: 6px;
+    margin: 1%;
+    border: none;
+    font-size: 24px;
+    color: rgb(95, 94, 94);
+    background: none;
+}
+
+ ::placeholder{
+    color: rgb(218, 213, 213);
+}
+
+
+
+.btn1{
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: none;
+    font-size: 40px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.input{
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+
+.input:checked + div {
+    text-decoration: line-through;
+  }
+
+.todo>div{
+    font-size: 18px;
+}
+
+.btn2{
+    padding: 5px 12px;
+    border: 1px solid rgb(0, 83, 128);
+    background-color: rgb(165, 112, 245);
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
