@@ -34,7 +34,7 @@ const Navbar = () => {
 
       <div  className="themebtn" style={{"display": "flex", "fontWeight" : 'bold', "color":"white"}}>
         <h3>Change theme</h3>
-        <button onClick={(toggleTheme)}>{isLight ? (<div className="themeicon"><img src="https://cdn-icons.flaticon.com/png/512/6048/premium/6048363.png?token=exp=1654101148~hmac=d88f59fe29e2b99f7961ddb8c07e6fc7" alt="" /></div>):(<div className="themeicon"><img src="https://cdn-icons.flaticon.com/png/512/2277/premium/2277958.png?token=exp=1654101182~hmac=d3875fa6be3f12b955da003a05488cb3" alt="" /></div>)}</button>
+        <button onClick={(toggleTheme)}>{isLight ? (<div className="themeicon"><img src="https://cdn-icons-png.flaticon.com/512/230/230994.png" alt="Dark" /></div>):(<div className="themeicon"><img src="https://cdn-icons-png.flaticon.com/512/1160/1160707.png" alt="Light" /></div>)}</button>
       </div>
     </div>
   );
